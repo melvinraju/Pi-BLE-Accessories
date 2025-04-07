@@ -15,14 +15,14 @@ Install bleak for BLE on Pi
   
   2. Create file using nano:
   ```
-  nano ~/.config/autostart/start_screen_stream.desktop
+  nano ~/.config/autostart/start_BLE_Accessories.desktop
   ```
   3. Add the following content, edit the file path if required. Save and exit:
   ```
   [Desktop Entry]
   Type=Application
   Name=Start Screen Stream
-  Exec=lxterminal -e "bash -c 'sleep 5; python3 /home/raspberrypi/Desktop/MacPi_Mirror-main/screen_stream.py'"
+  Exec=lxterminal -e "bash -c 'sleep 10; python3 /home/etonmess/Desktop/MacPi_Mirror-main/Pi-BLE-Accesories.py'"
   X-GNOME-Autostart-enabled=true
   Comment=Delays 5 seconds, then runs screen_stream.py
   ```
