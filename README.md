@@ -22,7 +22,7 @@ Install bleak for BLE on Pi
   [Desktop Entry]
   Type=Application
   Name=Start Screen Stream
-  Exec=lxterminal -e "bash -c 'sleep 10; python3 /home/etonmess/Desktop/MacPi_Mirror-main/Pi-BLE-Accesories.py'"
+  Exec=lxterminal -e "bash -c 'sleep 10; python3 /home/etonmess/Desktop/MacPi_Mirror-main/Pi-BLE-Accessories.py'"
   X-GNOME-Autostart-enabled=true
   Comment=Delays 5 seconds, then runs screen_stream.py
   ```
