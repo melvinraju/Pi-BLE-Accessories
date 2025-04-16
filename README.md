@@ -1,8 +1,9 @@
 # Pi-BLE-Acessories
 
 Install bleak for BLE on Pi
-`sudo pip3 install bleak --break-system-packages`
-
+```
+sudo pip3 install bleak --break-system-packages
+```
 
 
   <summary>Optional: Make script start in terminal on boot (10 mins)</summary>
